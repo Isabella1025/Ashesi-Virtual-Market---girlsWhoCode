@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Application</title>
+    <link rel="stylesheet" href="css/vendor.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo">GirlsWhoCode</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="categories.html">Categories</a>
+            <a href="vendor.html">Become a Vendor</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-button"> 
+            <a href="signup.html">
+                <button class="register">Register</button>
+            </a>
+            <a href="login.html">
+                <button class="login">LogIn</button>
+            </a>
+        </div>
+    </header>
+
+    <!-- Vendor Application Section -->
+    <section id="vendor-application">
+        <div class="vendor-form-container">
+            <h2>Apply to Become a Vendor</h2>
+            <p>
+                Join our platform to showcase your products and services to the university community. Fill out the form below and take the first step to growing your business!
+            </p>
+            <form action="#" method="POST" class="vendor-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your School Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address (e.g abc@ashesi.edu.gh)" required>
+                </div>
+                <div class="form-group">
+                    <label for="business-name">Business Name</label>
+                    <input type="text" id="business-name" name="business-name" placeholder="Enter your business name" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Business Description</label>
+                    <textarea id="description" name="description" rows="5" placeholder="Describe your business and the products/services you offer" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="category">Business Category</label>
+                    <select id="category" name="category" required>
+                        <option value="">Select a category</option>
+                        <option value="Food and Drinks">Food and Drinks</option>
+                        <option value="Clothes and Accessories">Clothes and Accessories</option>
+                        <option value="Technology">Gadgets</option>
+                        <option value="Educational Materials">Stationery & Room Decor</option>
+                    </select>
+                </div>
+                <button type="submit" class="apply-btn">Submit Application</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

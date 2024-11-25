@@ -1,0 +1,172 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #161616; 
+    color: #fff; 
+    overflow-x: hidden;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .logo {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar nav a:hover {
+    color: #ff8400; 
+}
+
+.nav-button a button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.register {
+    background-color: #944a00;
+    color: #fff;
+}
+
+.register:hover {
+    background-color: #c76700;
+}
+
+.login {
+    background-color: #444;
+    color: #fff;
+}
+
+.login:hover {
+    background-color: #666;
+}
+
+/* Vendor Application Section */
+#vendor-application {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.vendor-form-container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #202020; 
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.vendor-form-container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #c76700; 
+}
+
+.vendor-form-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #aaa;
+}
+
+.vendor-form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #944a00; 
+}
+
+.apply-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #c76700; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.apply-btn:hover {
+    background-color: #944a00;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .vendor-form-container {
+        padding: 20px;
+    }
+
+    .vendor-form-container h2 {
+        font-size: 24px;
+    }
+
+    .apply-btn {
+        width: 100%;
+    }
+}

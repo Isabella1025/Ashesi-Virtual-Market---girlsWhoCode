@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo">GirlsWhoCode</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#categories">Categories</a>
+            <a href="#join">Become a Vendor</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-button"> 
+            <a href="signup.html">
+                <button class="register">Register</button>
+            </a>
+            <a href="login.html">
+                <button class="login">LogIn</button>
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Landing Section -->
+    <main class="landing-container" id="home">
+        <div class="welcome-section">
+            <h1>Ashesi Virtual Market</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button><i class="search-icon">🔍</i></button>
+            </div>
+            <div class="button-group">
+                <a href="product.html"> 
+                    <button class="free-trial">Start Shopping</button>
+                    <button class="see-more">Take a Look!</button>
+                </a>
+                
+            </div>
+        </div>
+    </main>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/10.png" alt="Beautiful Campus View">
+            </div>
+            <div class="about-content">
+                <h2> ABOUT US!</h2>
+                <h3>Connecting Students, Vendors, and Opportunities</h3>
+                <p>
+                    Discover the perfect blend of community and commerce with our web-based Student Business Directory! 
+                    Our platform bridges the gap between student vendors and buyers, fostering a professional marketplace 
+                    where businesses thrive and students conveniently access diverse products and services.
+                </p>
+                <ul>
+                    <li><strong>Diverse Offerings:</strong> From handcrafted goods to cutting-edge tech, explore an array of unique items curated by your peers.</li>
+                    <li><strong>Empowering Vendors:</strong> Showcase your brand, grow your customer base, and gain insights to refine your business strategy.</li>
+                    <li><strong>Seamless Experience:</strong> Enjoy secure transactions, personalized recommendations, and effortless navigation tailored to your needs.</li>
+                </ul>
+                <p>
+                    Support local talent, embrace innovation, and transform everyday shopping into a shared journey of success. Join us today!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+<section id="categories">
+    <h2>Shop by Categories</h2>
+    <div class="categories-grid">
+        <div class="category-card">
+            <img src="images/11.jpg" alt="Food and Drinks">
+            <h3>Food And Drinks</h3>
+            <a href="product.html">Shop Collection</a>
+        </div>
+        <div class="category-card">
+            <img src="images/13.jpg" alt="Clothes and Accessories">
+            <h3>Clothes and Accessories</h3>
+            <a href="#clothes-collection">Shop Collection</a>
+        </div>
+        <div class="category-card">
+            <img src="images/14.jpg" alt="Gadgets">
+            <h3>Technology</h3>
+            <a href="#technology-collection">Shop Collection</a>
+        </div>
+        <div class="category-card">
+            <img src="images/15.jpg" alt="Stationery & Room Decor">
+            <h3>Educational Materials</h3>
+            <a href="#books-collection">Shop Collection</a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Become a Vendor Section -->
+<section id="join">
+    <div class="vendor-container">
+        <div class="vendor-content">
+            <h2>Become a Vendor</h2>
+            <p>
+                Are you a student entrepreneur looking to expand your reach? Join our Student Business Directory and 
+                showcase your products or services to the entire university community. Signing up as a vendor is quick 
+                and easy. Start building your online presence today and connect with potential customers in just a few clicks.
+            </p>
+            <a href="vendor.html">
+                <button class="apply-now">Apply Here</button>
+            </a>
+            
+        </div>
+        <div class="vendor-image">
+            <img src="images/16.jpg" alt="Become a Vendor">
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Us Section -->
+<section id="contact">
+    <div class="contact-container">
+        <div class="contact-content">
+            <h2>Contact Us</h2>
+            <p>
+                Have questions or need assistance? We’re here to help! Reach out to us via the form below or email us at 
+                <a href="mailto:info@girlswhocode.com">info@girlswhocode.com</a>. We’ll get back to you as soon as possible.
+            </p>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+                </div>
+                <button type="submit" class="contact-btn">Send Message</button>
+            </form>
+        </div>
+        <div class="contact-image">
+            <img src="images/17.jpg" alt="Contact Us">
+        </div>
+    </div>
+</section>
