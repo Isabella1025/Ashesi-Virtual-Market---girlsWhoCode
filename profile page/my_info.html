@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Info</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <button class="back-button" onclick="window.location.href='settings.html';">
+        <i class="fa-solid fa-arrow-left"></i>
+    </button>
+    
+        <h1>My Info</h1>
+        <button class="cart-button">
+         
+        </button>
+    </header>
+    <main>
+        <section class="about-you">
+            <div class="section-header">
+                <h2>ABOUT YOU</h2>
+                <a href="#" class="edit-link">Edit</a>
+            </div>
+            <ul class="about-list">
+                <li>
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>Add Instagram</span>
+                    <button onclick="window.location.href='add_info.html?type=instagram';" class="add-button">+</button>
+
+                </li>
+                <li>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <span>Add TikTok</span>
+                    <button onclick="window.location.href='add_info.html?type=TikTok';" class="add-button">+</button>
+
+                </li>
+                <li>
+                    <i class="fa-brands fa-twitter"></i>
+                    <span>Add Twitter</span>
+                    <button onclick="window.location.href='add_info.html?type=Twitter';" class="add-button">+</button>
+
+                </li>
+                <li>
+                    <i class="fa-solid fa-cake-candles"></i>
+                    <div>
+                        <span>Add Birthday</span>
+                        <p class="birthday-note">We'll send you a surprise on your birthday! 🎉</p>
+                    </div>
+                    <button onclick="window.location.href='add_info.html?type=Birthday';" class="add-button">+</button>
+
+                </li>
+                <li>
+                    <i class="fa-solid fa-user"></i>
+                    <span>Add Gender</span>
+                    <button onclick="window.location.href='add_info.html?type=Gender';" class="add-button">+</button>
+
+                </li>
+            </ul>
+        </section>
+
+        <section class="contact-details">
+            <h2>CONTACT DETAILS</h2>
+            <div class="contact-item">
+                <p>Your Name</p>
+                <p class="detail-value"> User </p>
+                <button onclick="window.location.href='contact_info.html';" class="edit-button">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                
+            </div>
+            <div class="contact-item">
+                <p>Email Address</p>
+                <p class="detail-value">user@gmail.com</p>
+                <button onclick="window.location.href='contact_info.html';" class="edit-button">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                
+            </div>
+            <a href="#" class="reset-password">Reset your password</a>
+        </section>
+
+        <section class="addresses">
+            <h2>ADDRESSES</h2>
+            <p>No addresses saved yet. Add an address to make checkout easier!</p>
+        </section>
+    </main>
+   
+</body>
+</html>

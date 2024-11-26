@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Orders</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="orders-header">
+        <button class="back-button" onclick="history.back();">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <h1>My Orders</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="orders-container">
+        <!-- Pending Orders Section -->
+        <section class="orders-section">
+            <h2>Pending Orders</h2>
+            <div class="order-buttons">
+                <p class="no-orders-message">No pending orders yet.</p>
+            </div>
+        </section>
+
+
+        <!-- Old Orders Section -->
+        <section class="orders-section">
+            <h2>Old Orders</h2>
+            <div class="order-buttons">
+                <p class="no-orders-message">No old orders yet.</p>
+            </div>
+        </section>
+    </main>
+
+    
+
+    <script src="orders.js"></script>
+</body>
+</html>

@@ -1,0 +1,1508 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Profile Section */
+.profile-section {
+    padding: 20px;
+}
+
+.profile-section h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Profile Menu Items */
+/* Profile Menu Items */
+.profile-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-menu li {
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-menu a {
+    display: flex;
+    align-items: center; /* Align the icon and label vertically */
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    justify-content: flex-start; /* Align icon and label together */
+    gap: 15px; /* Spacing between icon and label */
+}
+
+/* Adjust Icon Size and Spacing */
+.profile-menu a i {
+    font-size: 1.2rem; /* Icon size */
+    color: #555;
+}
+
+/* Arrow Alignment */
+.profile-menu .arrow {
+    margin-left: auto; /* Push the arrow to the far right */
+    font-size: 1.2rem;
+    color: #aaa;
+}
+
+/* Hover Effect */
+.profile-menu a:hover {
+    background-color: #f9f9f9;
+}
+
+.profile-menu .sign-out {
+    color: red;
+    font-weight: bold;
+}
+
+/* Header */
+.help-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.help-header h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.back-button,
+.cart-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Welcome Section */
+.help-welcome {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.help-welcome h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.help-welcome h3 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.notification-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.notification-header h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.back-button,
+.cart-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* No Notifications Message */
+.no-notifications {
+    text-align: center;
+    margin-top: 50px;
+    color: #555;
+}
+
+.no-notifications h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.no-notifications p {
+    font-size: 1rem;
+    color: #888;
+}
+
+/* Notifications List */
+.notification-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.notification-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.notification-item h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.notification-item p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.footer-nav a i {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-nav a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.settings-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.settings-header h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.back-button,
+.cart-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Settings Menu */
+.settings-menu {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+
+.settings-menu li {
+    border-bottom: 1px solid #ddd;
+}
+
+.settings-menu a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    padding: 15px 0;
+}
+
+.settings-menu a .arrow {
+    font-size: 1.2rem;
+    color: #aaa;
+}
+
+.settings-menu a:hover {
+    background-color: #f9f9f9;
+}
+
+/* Footer Navigation */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.footer-nav a i {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-nav a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.notify-header {
+    display: flex;
+    align-items: center;
+    justify-content: space space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.notify-header h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.back-button,
+.cart-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Notify Me Empty State */
+.no-notifications {
+    text-align: center;
+    margin-top: 50px;
+    color: #555;
+}
+
+.no-notifications p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.shop-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Footer Navigation */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.footer-nav a i {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-nav a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.info-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-header h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.back-button,
+.cart-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* About You Section */
+.about-you {
+    padding: 15px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.section-header h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.edit-link {
+    font-size: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.about-list i {
+    font-size: 1.5rem;
+    color: #555;
+    margin-right: 15px;
+}
+
+.about-list span {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.about-list div {
+    flex-grow: 1; /* Allow div to take up the rest of the space */
+    display: flex;
+    flex-direction: column; /* Align text and note vertically */
+    gap: 2px; /* Small gap between lines */
+}
+
+.birthday-note {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 5px; /* Optional spacing for better appearance */
+}
+
+.add-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+/* Contact Details */
+.contact-details {
+    padding: 15px;
+}
+
+.contact-details h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.contact-item .detail-value {
+    flex-grow: 1;
+    margin-left: 10px;
+    color: #555;
+}
+
+.edit-button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.reset-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Addresses Section */
+.addresses {
+    padding: 15px;
+}
+
+.addresses h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.addresses p {
+    font-size: 1rem;
+    color: #888;
+}
+
+/* Footer Navigation */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.footer-nav a i {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-nav a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+.info-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-header h1 {
+    font-size: 1.2rem;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Form */
+main {
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.reset-email {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.reset-email a {
+    color: #007BFF;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.reset-email a:hover {
+    text-decoration: underline;
+}
+
+.submit-button {
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Navigation */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.footer-nav a i {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-nav a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+.orders-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.orders-header h1 {
+    font-size: 1.5rem;
+    flex-grow: 1;
+    text-align: center;
+    color: #333;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Orders Container */
+.orders-container {
+    padding: 20px;
+}
+
+.orders-section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.orders-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.order-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.order-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.order-button:hover {
+    background-color: #0056b3;
+}
+
+.no-orders-message {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Footer Navigation */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.footer-nav a i {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-nav a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Header Styling */
+.page-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.page-header h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Main Content Styling */
+.country-currency-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.country-currency-container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+select {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+.page-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.page-header h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Main Content */
+.content-container {
+    padding: 20px;
+}
+
+.returns-section {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.returns-section h2 {
+    font-size: 1.5rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.returns-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.returns-section h3 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.returns-section ol {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.returns-section ol li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Footer Navigation */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.footer-nav a i {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-nav a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+.page-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.page-header h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Content Styling */
+.content-container {
+    padding: 20px;
+}
+
+.returns-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.returns-section h2 {
+    font-size: 1.5rem;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.returns-section p, .returns-section ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.returns-section ul {
+    padding-left: 20px;
+}
+
+.returns-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Navigation */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.footer-nav a i {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-nav a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+.page-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.page-header h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Content Styling */
+.content-container {
+    padding: 20px;
+}
+
+.order-help-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.order-help-section h2 {
+    font-size: 1.5rem;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.order-help-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.order-help-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-help-section ul li {
+    margin-bottom: 10px;
+}
+
+.order-help-section ul li button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.support-button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.support-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Footer Navigation */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.footer-nav a i {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-nav a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Track Order Shortcut */
+.help-shortcuts {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+}
+
+.help-shortcuts p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.track-order-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Shortcuts Section */
+.shortcuts {
+    padding: 20px;
+}
+
+.shortcuts h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.shortcut-grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.shortcut-card {
+    flex: 1 1 calc(50% - 10px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.shortcut-card:hover {
+    background-color: #f9f9f9;
+}
+
+.shortcut-card p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.shortcut-card i {
+    font-size: 1.2rem;
+    color: #aaa;
+}
+
+/* FAQ Section */
+.faqs {
+    padding: 20px;
+}
+
+.faqs h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.faq-item p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.faq-item span {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.faq-item i {
+    font-size: 1rem;
+    color: #aaa;
+}
+
+
+
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.footer-nav a i {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-nav a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+.page-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.page-header h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Content Styling */
+.content-container {
+    padding: 20px;
+}
+
+.track-order-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.track-order-section h2 {
+    font-size: 1.5rem;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.track-order-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.track-order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.track-order-form label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.track-order-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.track-order-form button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.track-order-form button:hover {
+    background-color: black;
+}
+
+/* Footer Navigation */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: ce
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track My Order</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="page-header">
+        <button class="back-button" onclick="window.location.href='help_center.html';">
+            <i class="fa-solid fa-arrow-left"></i> Back
+        </button>
+        <h1>Track My Order</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content-container">
+        <section class="track-order-section">
+            <h2>Track Your Order</h2>
+            <p>Enter your order number below to track the status of your shipment.</p>
+            <form action="#" method="POST" class="track-order-form">
+                <label for="order-number">Order Number</label>
+                <input type="text" id="order-number" name="order-number" placeholder="Enter your order number..." required>
+                <button type="submit">Track Order</button>
+            </form>
+        </section>
+    </main>
+
+   
+</body>
+</html>
