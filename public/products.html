@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="css/products.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo">GirlsWhoCode</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Categories</a>
+            <a href="vendor.html">Become a Vendor</a>
+            <a href="contact.html">Contact</a>
+            <a href="profile.php">View Profile</a>
+        </nav>
+        <div class="nav-button">
+            <a href="cart.html">
+                <button class="cart-btn">Cart 🛒</button>
+            </a>
+            <a href="wishlist.html">
+                <button class="wishlist-btn">Wishlist 💗☆</button>
+            </a>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <main class="products-container">
+        <h1>Select a Category</h1>
+        <div class="categories" id="categories">
+            <div class="category-card" data-category="Food">
+                <img src="images/food.png" alt="Food">
+                <h3>Food</h3>
+            </div>
+            <div class="category-card" data-category="Snacks and Drinks">
+                <img src="images/snacks.png" alt="Snacks and Drinks">
+                <h3>Snacks and Drinks</h3>
+            </div>
+            <div class="category-card" data-category="Stationery">
+                <img src="images/books.png" alt="Stationery">
+                <h3>Stationery</h3>
+            </div>
+            <div class="category-card" data-category="Technology">
+                <img src="images/gadgets.png" alt="Technology">
+                <h3>Technology</h3>
+            </div>
+            <div class="category-card" data-category="Room Decor">
+                <img src="images/room.png" alt="Room Decor">
+                <h3>Room Decor</h3>
+            </div>
+            <div class="category-card" data-category="Cleaning Supplies">
+                <img src="images/supplies.png" alt="Cleaning Supplies">
+                <h3>Cleaning Supplies</h3>
+            </div>
+            <div class="category-card" data-category="Clothing">
+                <img src="images/clothing.png" alt="Clothing">
+                <h3>Clothing</h3>
+            </div>
+            <div class="category-card" data-category="Accessories">
+                <img src="images/accesories.png" alt="Accessories">
+                <h3>Accessories</h3>
+            </div>
+            <div class="category-card" data-category="Footwear">
+                <img src="images/footwear.png" alt="Footwear">
+                <h3>Footwear</h3>
+            </div>
+        </div>
+
+        <div class="products" id="products">
+            <!-- Products will be displayed dynamically -->
+        </div>
+    </main>
+
+    <script src="js/products.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo">GirlsWhoCode</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Categories</a>
+            <a href="vendor.html">Become a Vendor</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-button"> 
+            <a href="products.html">
+                <button class="shopping">Back to Shopping! 🛒</button>
+        
+            </a>
+            <a href="wishlist.html">
+                <button class="wishlist">Wishlist💗☆</button>
+            </a>
+        </div>
+    </header>
+
+    <!-- Cart Section -->
+    <main class="cart-container">
+        <h1>Your Shopping Cart 🛒</h1>
+        <div class="cart-items" id="cart-items">
+            <!-- Example Cart Item -->
+            <div class="cart-item" data-price="20">
+                <img src="images/product1.jpg" alt="Product Image">
+                <div class="item-details">
+                    <h3>Product Name</h3>
+                    <p>Price: GHC 20.00</p>
+                    <p>Quantity: <input type="number" value="1" min="1" class="item-quantity"></p>
+                </div>
+                <button class="remove-btn">Remove</button>
+            </div>
+
+            <div class="cart-item" data-price="35">
+                <img src="images/product2.jpg" alt="Product Image">
+                <div class="item-details">
+                    <h3>Another Product</h3>
+                    <p>Price: GHC 35.00</p>
+                    <p>Quantity: <input type="number" value="2" min="1" class="item-quantity"></p>
+                </div>
+                <button class="remove-btn">Remove</button>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <h2>Cart Summary</h2>
+            <p>Total: <span id="cart-total">GHC 90.00</span></p>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </main>
+    <script src="js/cart.js"></script>
+</body>
+</html>
